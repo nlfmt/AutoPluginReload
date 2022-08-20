@@ -1,0 +1,12 @@
+name: AutoPluginReload
+version: '${project.version}'
+main: avaze.autopluginreload.AutoPluginReload
+api-version: 1.19
+authors: [ Avaze7 ]
+description: Auto-Reloads plugins when they are updated
+commands:
+  autopluginreload:
+    description: Toggle Auto-Reloading of plugins
+    usage: /<command>
+    permission: minecraft.command.op
+    permission-message: You do not have permission to use this command!
